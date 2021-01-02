@@ -1,0 +1,1 @@
+intial attempt at build a simple REST API to interact with a database for the art scraper
