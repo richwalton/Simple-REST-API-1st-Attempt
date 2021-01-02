@@ -1,0 +1,29 @@
+GET http://localhost:4000/subscribers
+
+###
+
+GET http://localhost:4000/subscribers/5feea2dff7d324636c910c71
+
+###
+
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Rich Walton Sr.",
+    "subscribedToChannel": "Pixel Bush"
+}
+
+###
+
+DELETE http://localhost:4000/subscribers/5feff11e5fe4e56a0a7a55b5
+
+###
+
+PATCH http://localhost:4000/subscribers/5feff11e5fe4e56a0a7a55b5
+content-type:application/json
+
+{
+    "name": "New Name2"
+    
+}
